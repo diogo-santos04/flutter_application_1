@@ -8,3 +8,41 @@ MATERIALAPP (Stateful)
 SCAFFOLD (esqueleto do app)
 APP TITLE
 BOTTOM NAVIGATION BAR? (setState)
+
+
+Widgets para mandar para outra tela
+Navigator.push - Navegar para outra pagina e pode voltar
+Navigator.pushReplacement - Substitui a pagina atual, bom para mandar para a tela inicial dps do login
+
+-----------------------------
+To see a Flutter app on a physical Android phone, follow these steps: 
+
+    Enable Developer Options and USB Debugging on your phone:
+        Navigate to your phone's Settings.
+        Find About phone (or a similar option like "Software information").
+        Locate the Build number and tap it rapidly (usually 7 times) until you see a message confirming that "Developer options" are enabled.
+        Go back to the main Settings menu, or look under System, and you should find Developer options.
+        Enter Developer options and enable USB debugging. 
+    Connect your phone to your computer:
+        Use a reliable USB cable, preferably the one that came with your phone, to connect your device to your computer.
+        If prompted on your phone, authorize your computer to access the device and allow USB debugging. 
+    Verify device connection (optional but recommended):
+        Open your terminal or command prompt and run the command: 
+
+Código
+
+        flutter devices
+
+    Your device should be listed as a connected device. If not, ensure correct drivers are installed and try re-enabling USB debugging. 
+
+    Select your device in your IDE (e.g., VS Code, Android Studio):
+        In your IDE, locate the device selection dropdown (often in the bottom bar in VS Code) and choose your connected physical device. 
+    Run the Flutter app:
+        In your IDE, initiate the run or debug process for your Flutter application. This will build the app and install it onto your connected phone.
+        Alternatively, you can use the command line in your project's root directory: 
+
+Código
+
+        flutter run
+
+After these steps, your Flutter app will launch and be visible on your physical Android phone.
